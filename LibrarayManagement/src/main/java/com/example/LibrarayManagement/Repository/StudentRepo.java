@@ -1,0 +1,18 @@
+package com.example.LibrarayManagement.Repository;
+
+import com.example.LibrarayManagement.Entity.Student;
+import org.hibernate.type.descriptor.converter.spi.JpaAttributeConverter;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface StudentRepo extends JpaRepository<Student,Integer> {
+//    Optional<Student> findByStudentName(String name);
+//
+//    @Query(value = "uiubib" , nativeQuery = true)
+//    findobject()
+
+}
